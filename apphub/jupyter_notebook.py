@@ -107,7 +107,6 @@ class JupyterNotebook(App):
 
         with self.conda_activate(default_conda_env):
             self.execute_command("pip install jupyter")
-        wait_for_port(self.port)
         self.app_installed()
 
     def render_start_page(self) -> "gr.Blocks":
@@ -148,6 +147,7 @@ class JupyterNotebook(App):
             """,
                 daemon=True,
             )
+        wait_for_port(self.port)
         self.app_started()
 
     def render_setting_page(self) -> gr.Blocks:
