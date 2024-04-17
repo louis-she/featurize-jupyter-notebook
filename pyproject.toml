@@ -1,0 +1,21 @@
+[project]
+name = "jupyter_notebook"
+description = "经典 Jupyter Notebook"
+authors = [{name= "Chenglu", email = "chenglu.she@gmail.com"}]
+version = "1.0.0"
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/louis-she/featurize-jupyter-notebook"
+Documentation = "https://github.com/louis-she/featurize-jupyter-notebook/blob/master/README.md"
+Repository = "https://github.com/louis-she/featurize-jupyter-notebook"
+Changelog = "https://github.com/louis-she/featurize-jupyter-notebook/blob/master/CHANGELOG.md"
+Issues = "https://github.com/louis-she/featurize-jupyter-notebook/issues"
+
+[featurize]
+port = "20007"
+icon = "https://featurize-public.oss-cn-beijing.aliyuncs.com/apps/jupyter.png"
+author_github = "https://github.com/louis-she"
+name = "Jupyter Notebook"
+newtab = false
+has_setting_page = true
