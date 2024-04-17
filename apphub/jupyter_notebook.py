@@ -16,6 +16,11 @@ class JupyterNotebook(App):
         return 20007
 
     @property
+    def op_port(self):
+        """应用的端口号"""
+        return 30007
+
+    @property
     def name(self):
         """应用名称"""
         return "Jupyter Notebook"
